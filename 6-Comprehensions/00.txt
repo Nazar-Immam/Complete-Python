@@ -1,0 +1,19 @@
+Comprehensions are a concise way to write
+1. Sets
+2. Lists
+3. Dictionaries
+4. or Gereators
+in python using a single line of code
+
+Where are they used in real life ?
+ - filter item
+ - transfrom item ( ex - usd to inr )
+ - create new collection
+ - flatten nested structure
+
+Benifits of using Comprehensions
+ - cleaner code
+ - faster
+
+Types of Comprehensions
+- List , Set , Dictionaries , Gereators
