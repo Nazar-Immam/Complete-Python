@@ -1,0 +1,19 @@
+Best practices for Pydantic Model Design 
+
+1.Model Organization
+-- Define Leaf models first(The last model, model with no dependencies)
+-- Build Upward - Gradually compose more complex models(from easier to medium to difficult)
+-- Use Clear naming - Make relationships obvious
+-- Group Related Models - Keep models in logical modules
+
+2. Performance Considerations
+-- Deep nesting impacts performance - Keep reasonable depth
+-- Be precaucious in Recursive models , they can really really be very memory exhaustive.
+-- Be careful of Circular References.
+-- Lazy Loading - Avoid using computated models, it takes space in ram and reduces cpu speed.
+
+3. Data Modelling Tips
+-- Model real world relationships - Mirror your domain structure
+-- Use optional as much as possible - Not all relationships are required
+-- Consider using Union Types - For polymorphic relationships
+-- Validate Business Rules - Use model validators for cross-model logic 

@@ -1,0 +1,16 @@
+Pydantic - 
+Pydantic is a Python library used for DATA VALIDATION and SETTINGS MANAGEMENT using Python type hints. 
+In simple words, it helps you ensure that the data your program receives or uses is correct and
+structured properly.
+General Usecases:
+-Data parsing and validation 
+-API development
+-gives clear errors
+-config management 
+-Data serialization/deserialization
+
+Also Pydantic automatically checks that the data matches these types and can also convert 
+compatible types (e.g., a string "123" to an integer 123).
+
+Think of Pydantic as a guard that ensures the data in your Python program is
+always safe, clean, and properly typed
