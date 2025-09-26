@@ -1,0 +1,14 @@
+#Deamon and Non-Deamon Threads
+
+ 1. Daemon Threads
+ A daemon thread is a background thread.(used for non-critical tasks, like cleanup,monitoring,etc)
+ The Python interpreter will not wait for it to finish.
+ If only daemon threads are left running, the program will exit immediately.
+
+ 2. Normal (Non-daemon) Threads
+ By default, every thread you create is a non-daemon thread.
+ Non-daemon threads keep the program alive until they finish.
+ The Python interpreter will wait for them to complete before exiting.
+
+
+But if we use t.join() , then no matter deamon or non-deamon, the program will wait till end.

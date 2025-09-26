@@ -1,0 +1,6 @@
+Debugging , Profiling - Race Conditions and Deadlock in Python.
+
+Profiling = There are some python tools, by which we can profile our code. When we profile code
+it shows us that how much time is spent on each function of our code. It tells that where our 
+main thread spent most time on which functions, and based on that we can optimise our functions.
+to do this, write in terminal = 'python -m cProfile -s time file_name'

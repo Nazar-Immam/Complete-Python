@@ -1,0 +1,17 @@
+Async Python.
+
+Concepts-
+-- async def functionname():   |aysnc in start of the funciton declares a 'coroutine'
+       pass                    |coroutine is a special function that can be paused.
+
+    
+-- await  - without async you cannot use await , await pauses the execution until the result is ready
+
+-- asyncio - asyncio is a Build in Libraray,lets Python run multiple tasks "at the same time" (concurrently)
+without threads/processes, by smartly switching between them whenever one is waiting.
+
+-- EventLoop - This is the engine that runs and schedule co-routines in python.(same as JS)
+
+
+Blocking code     -    time.sleep(2)
+Non-Blocking code -    await asyncio.sleep(2)
