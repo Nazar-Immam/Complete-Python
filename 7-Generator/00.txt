@@ -1,9 +1,0 @@
-As the name suggests , Generator means generating something
-In this value is laoded one by one not as a whole.
-
-One of the most common words with Generator is - yield . (its a keyword like for if )
-
-Major points of generator is , 
-1. You save memory
-2. When you don't want the results immediately
-3. Lazy evaluation
