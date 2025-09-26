@@ -13,3 +13,5 @@ Topics Covered-
 10.Multithreading, Multiprocessing , GIL in Python
 11.Asyncio in Python
 12.Everything need about Pydantic in Python.
+
+The Notes are from the course of Hitesh Chaudhary Sir of Udemy- Full Stack AI with Python. 
