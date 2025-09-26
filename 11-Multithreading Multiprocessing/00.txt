@@ -1,0 +1,21 @@
+#Concurrency and Parallelism
+
+Concurrency - Doing Multiple tasks at the same time, cpu switches between processes to do different tasks, 
+tasks that's taking time cpu shifts to next task and complete the previous one after this or just switching one to other
+ Concurrency is done by ,
+1. threading.Thread
+2. asyncio
+
+
+Parallelism - It just means doing multiple tasks at the exact same time, python use multiple cores of cpu for this
+This is like two people doing two tasks at the same time
+Parralelism is done by, 
+1. multiprocessing.Process
+2. concurrent.futures.ProcessPoolExecutor
+
+
+
+Functions don’t “automatically” run in threads.
+By default, everything runs in the main thread.
+When you create a thread (Thread(...) + .start()), you’re telling the OS: “Run this function in a separate thread.”
+After that, the OS takes care of scheduling those threads on CPU cores.

@@ -1,0 +1,10 @@
+Global Interpreter Lock (GIL)
+
+When two or more threads are trying to access and change the same memory at the same time , this is 
+called race conditon.
+To avoid this, gil puts a mutex on the thread that reaches first, and now with mutex(type of lock) on
+that memory ,no other thread can access it until the mutex gets off from the thread and then moves 
+to next thread accessing it
+
+
+threading.current_thread() tells you which thread is currently executing that piece of code.
