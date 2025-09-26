@@ -1,1 +1,0 @@
-seasons = ["Winter" , "Summer" , "Fall" , "Spring"]
